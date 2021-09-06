@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/signin_btn"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="279dp"
+        android:background="@drawable/coustm_btn"
+        android:text="@string/sign_in"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:backgroundTint="#DE960C"
+        app:icon="@drawable/ic_baseline_login_24" />
+
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="209dp"
+        android:background="@drawable/coustem_btn2"
+        android:text="@string/sign_up"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:backgroundTint="#FBC866"
+        app:icon="@drawable/ic_baseline_app_registration_24" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="268dp"
+        android:layout_height="316dp"
+        android:layout_above="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="-103dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/name"
+        android:layout_width="336dp"
+        android:layout_height="221dp"
+        android:layout_above="@+id/signin_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="-23dp"
+        app:srcCompat="@drawable/name" />
+
+
+</RelativeLayout>
